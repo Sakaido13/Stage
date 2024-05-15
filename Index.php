@@ -1,5 +1,6 @@
 <?php 
 
-echo 'HelleWorld'
+echo 'HelleWorld';
+echo 'Bonjour';
 
 ?>
