@@ -1,9 +1,13 @@
 <?php 
-<<<<<<< HEAD
-=======
 
-echo 'HelleWorld';
-echo 'Bonjour';
+if (!isset($_REQUEST['Action'])) {
+    $_REQUEST['Action'] = 100 ;
+}
 
-?>
->>>>>>> cc0804893b887b0ecdcab517ad4930b519b874c4
+switch ($_REQUEST['Action']){
+    case 100 : // Page d'acceuil
+        require_once 'include/EnteteDePage.inc.php';
+        require_once 'include/PiedDePage.inc.php';
+        break;
+
+}
