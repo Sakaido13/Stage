@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-    <div style="width: 100%; height: 100%; background: white; border-radius: 106.18px; border: 11.68px black solid"></div><div style="width: 100%; height: 100%; background: white; border-radius: 106.18px; border: 11.68px black solid"></div>
         <div class="logo">
             <img src="Images\Entete\LogoBipbipBat.webp" alt="Logo">
         </div>
