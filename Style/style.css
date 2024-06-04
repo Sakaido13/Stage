@@ -78,7 +78,6 @@ header {
     padding: 5px 15px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 1em;
-    border-top-right-radius: 10% 30%;
   
 }
 
@@ -220,20 +219,7 @@ footer {
     font-size: 14px;
 }
 
-.footer-column a:hover {
-    text-decoration: underline;
-}
 
-/* Overlay for better text visibility */
-.footer-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -248,28 +234,59 @@ footer {
 }
 
 
-/*Outillages*/
-.main-content3 {
+/* Outillages */
+/*.main-content3 {
     position: relative;
-}
+}*/
 
 .banner3 {
     position: relative;
-    text-align: center;
+    text-align:center;
     color: white;
 }
 
 .banner3 img {
-    width: 120%;
-    height: 120%
-    ;
+    width: 100%;
+    height: auto;
 }
 
-.banner-text3 {
+#banner-text3 {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    left: 10%;
+    top: 7%;
+    width:40%;
+    transform: translate(-50%, -50%);
+    background-color: #004d40;
     padding: 10px 20px;
-    border-radius: 10px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
 }
+.Chemin{
+    position: absolute;
+    text-align:center;
+    left: 8%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+}
+
+.chemin-text{
+    position: absolute;
+    left: 10%;
+    top: 7%;
+    width:40%;
+    transform: translate(-50%, -50%);
+    background-color: #004d40;
+    padding: 10px 20px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+a { color: #FFFFFF; }
+
+
+
+/*CONSOMMABLES*/

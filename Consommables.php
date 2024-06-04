@@ -6,17 +6,14 @@ require_once 'Include/EnteteDePage.inc.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OUTILLAGES</title>
+    <title>CONSOMMABLES</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main class="main-content3">
-        <div class="banner3">
-        <p id="banner-text3">OUTILLAGES</p> 
-        <img src="Images/background/Fond bois.jpg" alt="bois">
-        </div>
-        <div class="Chemin">
-        <P id="chemin-text"> <a href="Acceuil .php">Acceuil > Outillages</a><p>
+    <main class="main-content4">
+        <div class="banner4">
+            <img src="Images/background/Fond bois.jpg" alt="bois">
+            <p id="banner-text4">CONSOMMABLES</p>
         </div>
     </main>
     <?php

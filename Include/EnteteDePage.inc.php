@@ -23,7 +23,7 @@
             <ul>
                 <li><a href="Acceuil .php">ACCUEIL</a></li>
                 <li><a href="Outillages.php">OUTILLAGES</a></li>
-                <li><a href="#">CONSOMMABLES</a></li>
+                <li><a href="Consommables.php">CONSOMMABLES</a></li>
                 <li><a href="#">PEINTURE</a></li>
                 <li><a href="#">CARRELAGE</a></li>
                 <li><a href="#">PLOMBERIE</a></li>

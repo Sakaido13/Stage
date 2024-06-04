@@ -16,4 +16,10 @@ switch ($_REQUEST['Action']){
     require_once 'Outillage.php';
     require_once 'include/PiedDePage.inc.php';
     break;
+        
+    case 300: // Page Consommables
+    require_once 'include/EnteteDePage.inc.php';
+    require_once 'Consommables.php';
+    require_once 'include/PiedDePage.inc.php';
+    break;
 }
