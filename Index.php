@@ -11,7 +11,7 @@ switch ($_REQUEST['Action']){
         require_once 'include/PiedDePage.inc.php';
         break;
         
-        case 200: // Page outillages
+    case 200: // Page outillages
     require_once 'include/EnteteDePage.inc.php';
     require_once 'Outillage.php';
     require_once 'include/PiedDePage.inc.php';
@@ -53,9 +53,10 @@ switch ($_REQUEST['Action']){
         require_once 'include/PiedDePage.inc.php';
         break;
 
-        case 900:// Page Plaquiste
-        require_once 'include/EnteteDePage.inc.php';
-        require_once 'Plaquiste.php';
-        require_once 'include/PiedDePage.inc.php';
-        break;
+    case 900:// Page Plaquiste
+    require_once 'include/EnteteDePage.inc.php';
+    require_once 'Plaquiste.php';
+    require_once 'include/PiedDePage.inc.php';
+    break;
+
 }
