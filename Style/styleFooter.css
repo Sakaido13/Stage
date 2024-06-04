@@ -1,0 +1,46 @@
+/*Footer*/
+/* Footer Styles */
+footer {
+    background-image: url('../Images/background/footer.PNG');
+    /* Ajuster le chemin selon votre structure */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-column p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}

@@ -1,0 +1,99 @@
+/*Header*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 100px;
+    /* Ajustez la taille du logo selon vos besoins */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 1000px;
+    flex: 0 0 200px;
+    flex-grow: 1;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    flex-grow: 1;
+}
+
+.search-bar button {
+    padding: 5px;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-bar button img {
+    width: 17px;
+    /* Ajustez la taille de l'icône de recherche */
+}
+
+.nav-icons a {
+    margin: 0 10px;
+}
+
+.nav-icons a img {
+    width: 20px;
+    /* Ajustez la taille des icônes */
+    height: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 0 7px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #004d40;
+    padding: 5px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .search-bar {
+        margin: 10px 0;
+        width: 100px;
+        /* Ajustez la largeur pour les petits écrans */
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        margin: 2px 4;
+    }
+}

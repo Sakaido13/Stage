@@ -1,0 +1,89 @@
+/* Accueil */
+
+.titre {
+    position: absolute;
+    top: 17%;
+    font-size: 180%;
+    background-color: black;
+    color: #fff;
+    width: 40%;
+    margin: 8px 8px 8px 8px;
+}
+
+#Image {
+    position: relative;
+    max-width: max-content;
+
+
+}
+
+/* styles.css */
+
+.main-content {
+    position: relative;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.top-banner-text {
+    position: absolute;
+    top: 3%;
+    left: 21%;
+    font-size: 185%;
+    background-color: black;
+    color: #fff;
+    width: 40%;
+    margin: 8px 8px 8px 8px;
+}
+
+
+.bottom-banner-text {
+    bottom: 10px;
+    font-size: 165%;
+    font-weight: bold;
+    color: black;
+    height: 1%;
+    background: white;
+    border: 8px black solid;
+    width: 50%;
+    height: 25px;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        max-width: 100%;
+    }
+}
