@@ -6,29 +6,37 @@
     <title>PiedDePage</title>
     <link rel="stylesheet" href="Style/style.css">
 </head>
+<body>
+    <!-- Contenu de la page -->
+    <div class="content">
+        <!-- Ajoutez ici votre contenu principal -->
+    </div>
+
+    <!-- Footer -->
     <footer>
-        <div id="conteneur">
-            <div class="info">
-                <h3>Contactez nous</h3>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>CONTACTEZ NOUS</h3>
                 <p>Mail 📧</p>
                 <p>Téléphone 📞</p>
                 <p>Devenir Livreur</p>
             </div>
-            <div class="info">
-                <h3>Informations</h3>
-                <p>Politique de confidentialité</p>
-                <p>Vos données</p>
+            <div class="footer-column">
+                <h3>INFORMATIONS</h3>
+                <p>Politique de Confidentialité</p>
+                <p>Vos Données</p>
             </div>
-            <div class="info">
-                <h3>Merci pour votre visite !</h3>
+            <div class="footer-column">
+                <h3>MERCI DE VOTRE VISITE !</h3>
                 <p>@BIPBIPBAT 2024</p>
             </div>  
-            <div class="info">
-                <h3>Suivi de Commande</h3>
+            <div class="footer-column">
+                <h3>SUIVI DE COMMANDE</h3>
                 <p>Comment ça marche ?</p>
                 <p>Politique RGPD</p>
                 <p>Laissez nous un avis</p>
             </div>
         </div>
     </footer>
+</body>
 </html>

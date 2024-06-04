@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Page PHP</title>
+    <title>Entete </title>
     <link rel="stylesheet" href="Style\style.css">
 </head>
-<body>
     <header>
         <div class="logo">
             <img src="Images\Entete\LogoBipbipBat.webp" alt="Logo">
@@ -22,8 +21,8 @@
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="#">ACCUEIL</a></li>
-                <li><a href="#">OUTILLAGES</a></li>
+                <li><a href="Acceuil .php">ACCUEIL</a></li>
+                <li><a href="Outillages.php">OUTILLAGES</a></li>
                 <li><a href="#">CONSOMMABLES</a></li>
                 <li><a href="#">PEINTURE</a></li>
                 <li><a href="#">CARRELAGE</a></li>
@@ -34,5 +33,4 @@
             </ul>
         </nav>
     </header>
-</body>
 </html>
