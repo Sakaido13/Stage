@@ -31,21 +31,33 @@ header {
 .search-bar input {
     padding: 5px;
     font-size: 16px;
+    border: 1px solid #000000;
     border-radius: 4px 0 0 4px;
     flex-grow: 1;
 }
 
 .search-bar button {
     padding: 5px;
+    background-color: #91858500;
+    border: 1px solid #000000;
     border-left: none;
     border-radius: 0 4px 4px 0;
 }
 
 .search-bar button img {
-    width: 17px;
-    /* Ajustez la taille de l'icône de recherche */
+    width: 16px;
+
 }
 
+.nav-icons a {
+    margin: 0 10px;
+}
+
+.nav-icons a img {
+    width: 20px;
+    /* Ajustez la taille des icônes */
+    height: 20px;
+}
 .nav-icons a {
     margin: 0 10px;
 }

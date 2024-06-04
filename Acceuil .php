@@ -7,7 +7,7 @@ require_once 'Include\EnteteDePage.inc.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=2">
     <title>Page d'accueil</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href=Style\styleAcceuil.css>
 </head>
 <body>
     <main class="main-content">

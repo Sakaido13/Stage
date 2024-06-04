@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entete </title>
-    <link rel="stylesheet" href="Style\style.css">
+    <link rel="stylesheet" href="Style\styleHeader.css">
 </head>
     <header>
         <div class="logo">
@@ -24,12 +24,12 @@
                 <li><a href="Acceuil .php">ACCUEIL</a></li>
                 <li><a href="Outillages.php">OUTILLAGES</a></li>
                 <li><a href="Consommables.php">CONSOMMABLES</a></li>
-                <li><a href="#">PEINTURE</a></li>
-                <li><a href="#">CARRELAGE</a></li>
-                <li><a href="#">PLOMBERIE</a></li>
-                <li><a href="#">ÉLECTRICITÉ</a></li>
-                <li><a href="#">MENUISERIE</a></li>
-                <li><a href="#">PLAQUISTE</a></li>
+                <li><a href="Peinture.php">PEINTURE</a></li>
+                <li><a href="Carrelage.php">CARRELAGE</a></li>
+                <li><a href="Plomberie.php">PLOMBERIE</a></li>
+                <li><a href="Electricité.php">ÉLECTRICITÉ</a></li>
+                <li><a href="Menuiserie.php">MENUISERIE</a></li>
+                <li><a href="Plaquiste.php">PLAQUISTE</a></li>
             </ul>
         </nav>
     </header>

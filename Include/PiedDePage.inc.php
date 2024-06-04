@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PiedDePage</title>
-    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style\styleFooter.css">
 </head>
 <body>
-    <!-- Contenu de la page -->
     <div class="content">
-        <!-- Ajoutez ici votre contenu principal -->
     </div>
-
-    <!-- Footer -->
     <footer>
         <div class="footer-container">
             <div class="footer-column">

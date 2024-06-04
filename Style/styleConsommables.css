@@ -1,0 +1,76 @@
+/* Consommables */
+
+.banner3 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner3 img {
+    width: 100%;
+    height: auto;
+}
+
+#banner-text3 {
+    position: absolute;
+    left: 10%;
+    top: 7%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #004d40;
+    padding: 10px 20px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.Chemin {
+    position: absolute;
+    text-align: center;
+    left: 9%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+}
+
+.chemin-text {
+    position: absolute;
+    left: 15%;
+    top: 7%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #004d40;
+    padding: 10px 20px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+a {
+    color: #FFFFFF;
+    outline: none;
+    text-decoration: none;
+
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: #05351a;
+}
+label {
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    padding-right: 10px;
+  }
+  
+  select {
+    position:absolute;
+    top:26%;
+    left:35%;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 5px;
+  }
+  
