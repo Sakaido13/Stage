@@ -1,4 +1,5 @@
-/* Consommables */
+/* COMPTE*/
+
 
 .banner3 {
     position: relative;
@@ -27,7 +28,7 @@
 .Chemin {
     position: absolute;
     text-align: center;
-    left: 10.5%;
+    left: 8%;
     top: 18%;
     transform: translate(-50%, -50%);
     font-size: 20px;
@@ -36,8 +37,8 @@
 
 .chemin-text {
     position: absolute;
-    left: 18%;
-    top: 9%;
+    left: 10%;
+    top: 7%;
     width: 40%;
     transform: translate(-50%, -50%);
     background-color: #004d40;
@@ -54,10 +55,8 @@ a {
 
 }
 
-a:hover {
-    border-bottom: 1px solid;
-    background: #05351a;
-}
+
+
 label {
     position: absolute;
     font-family:Arial, Helvetica, sans-serif;

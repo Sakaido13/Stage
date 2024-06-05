@@ -16,7 +16,7 @@ require_once 'Include/EnteteDePage.inc.php';
         <img src="Images/background/Fond bois.jpg" alt="bois">
         </div>
         <div class="Chemin">
-        <P id="chemin-text"> <a href="Acceuil .php">ACCEUIL </a> > CARRELAGE<p>
+        <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > CARRELAGE<p>
         </div>
         <label for="Trier-select">Trier par ordre:</label>
         <select name="Trier" id="Trier-select">

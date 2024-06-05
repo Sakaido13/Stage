@@ -15,21 +15,21 @@
             <button type="submit"><img src="Images\logo\logorecherche.png" alt="Rechercher"></button>
         </div>
         <div class="nav-icons">
-            <a href="#"><img src="Images\Entete\Comptelogo.png" alt="User"></a>
+            <a href="Compte.php"><img src="Images\Entete\Comptelogo.png" alt="User"></a>
             <a href="#"><img src="Images\Entete\Logo Like.png" alt="Wishlist"></a>
             <a href="#"><img src="Images\Entete\panier.png" alt="Cart"></a>
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="Acceuil .php">ACCUEIL</a></li>
-                <li><a href="Outillages.php">OUTILLAGES</a></li>
-                <li><a href="Consommables.php">CONSOMMABLES</a></li>
-                <li><a href="Peinture.php">PEINTURE</a></li>
-                <li><a href="Carrelage.php">CARRELAGE</a></li>
-                <li><a href="Plomberie.php">PLOMBERIE</a></li>
-                <li><a href="Electricité.php">ÉLECTRICITÉ</a></li>
-                <li><a href="Menuiserie.php">MENUISERIE</a></li>
-                <li><a href="Plaquiste.php">PLAQUISTE</a></li>
+                <li><a href="index.php?action=100">ACCUEIL</a></li>
+                <li><a href="index.php?action=200">OUTILLAGES</a></li>
+                <li><a href="index.php?action=300">CONSOMMABLES</a></li>
+                <li><a href="index.php?action=400">PEINTURE</a></li>
+                <li><a href="index.php?action=500">CARRELAGE</a></li>
+                <li><a href="index.php?action=600">PLOMBERIE</a></li>
+                <li><a href="index.php?action=700">ÉLECTRICITÉ</a></li>
+                <li><a href="index.php?action=800">MENUISERIE</a></li>
+                <li><a href="index.php?action=900">PLAQUISTE</a></li>
             </ul>
         </nav>
     </header>

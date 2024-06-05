@@ -13,8 +13,6 @@
 #Image {
     position: relative;
     max-width: max-content;
-
-
 }
 
 /* styles.css */
@@ -54,7 +52,6 @@
     margin: 8px 8px 8px 8px;
 }
 
-
 .bottom-banner-text {
     bottom: 10px;
     font-size: 165%;
@@ -69,21 +66,69 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+}
+.info-section {
+    position: absolute;
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow for better visibility */
+    opacity: 0; /* Start hidden */
+    transform: translateX(35px); /* Start with a slight offset */
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out; /* Smooth transition */
 }
 
+.info-section.show {
+    opacity: 1; /* Make visible */
+    transform: translatex(0); /* Reset offset */
+    background-color: #fff;
+}
 
+#section1 {
+    top: 10%;
+    left: 5%;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.8); /* Specific green color */
+    color: white;
+}
 
+#section2 {
+    top: 35%;
+    right: 5%;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(251, 251, 251, 0.8); /* Specific green color */
+    color: white;
+}
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
+#section3 {
+    bottom: 20%;
+    left: 5%;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.8); /* Specific green color */
+    color: white;
+}
 
-    .footer-column {
-        max-width: 100%;
-    }
+.info-section h2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 48, 20, 0.8); /* Darker green for header */
+    border-radius: 5px 5px 0 0;
+}
+
+.info-section p {
+    margin: 0;
+    padding: 10px;
+    color: black;
+    border-radius: 0 0 5px 5px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.s1{
+color:rgba(0, 48, 20, 0.8) ;
+border-radius: 0 0 5px 5px;
 }
