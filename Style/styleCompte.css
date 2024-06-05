@@ -73,3 +73,40 @@ label {
     padding: 2px 5px;
   }
   
+  .bloc1{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 42%;
+    right: 9% ;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 5px 5px;
+    font-size:large;
+    font-weight: bolder;
+    width: 30%; 
+    height: 40%; 
+    background: linear-gradient(90deg, #073429 0%, #159A79 100%); 
+    border: 2px black solid;
+    
+    
+  }
+
+  .bloc2{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 42%;
+    left: 9%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 0 0 5px 5px;
+    font-size:large;
+    font-weight: bolder;
+    width: 30%; 
+    height: 40%;
+     background: white; 
+     border: 2px black solid;
+  }
+
+ 

@@ -9,17 +9,21 @@ require_once 'Include/EnteteDePage.inc.php';
     <title>COMPTE</title>
     <link rel="stylesheet" href=Style\styleCompte.css>
 </head>
-<body>
+<body>  
     <main class="main-content3">
         <div class="banner3">
-        <p id="banner-text3"> MON COMPTE</p> 
+          <p id="banner-text3"> MON COMPTE</p>   
         <img src="Images/background/Fond bois.jpg" alt="bois">
-        </div>
+          </div>
         <div class="Chemin">
-        <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > COMPTE<p>
+            <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > COMPTE<p>
         </div>
         <div class="bloc1">
-            <p id="bloc1texte">
+            <p>NOUVEAU CLIENT </p>
+        </div>
+        <div class="bloc2">
+            <p>DEJA CLIENT ? </p>
+        </div>
     </main>
     <?php
     require_once 'Include/PiedDePage.inc.php';
