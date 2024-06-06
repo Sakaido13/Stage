@@ -11,13 +11,13 @@ require_once 'Include\EnteteDePage.inc.php';
     <script src="script.js"></script>
 </head>
 <body>
-    <main class="main-content">
-        <div class="banner">
+    <main class="main">
+        <div class="bannière">
             <img src="Images\background\Scooter.jpg" alt="Scooter">
-            <div class="banner-text top-banner-text">
+            <div class="bannière-text text-haut-bannière">
                 FAITES VOUS LIVRER DÈS MAINTENANT !
             </div>
-            <div class="banner-text bottom-banner-text">
+            <div class="bannière-text text-bas-bannière">
                 BIENVENUE CHEZ BIPBIPBAT
             </div>
         </div>
@@ -28,7 +28,7 @@ require_once 'Include\EnteteDePage.inc.php';
         </div>
         <div class="info-section hidden" id="section2">
             <h2>Comment ça marche ?</h2>
-            <p>Le processus de commande chez BipBipBat est simple et intuitif. À l'aide de notre application conviviale, les utilisateurs peuvent parcourir une vaste gamme de matériaux de construction et passer leur commande en quelques clics seulement. Une fois la commande confirmée, notre équipe se met immédiatement en action. Nos livreurs expérimentés, équipés de scooters agiles, se rendent rapidement sur le lieu de livraison, assurant ainsi une réception rapide et sans tracas des matériaux commandés.</p>
+            <p>Le processus de commande chez BipBipBat est simple et intuitif. À l'aide de notre site conviviale, les utilisateurs peuvent parcourir une vaste gamme de matériaux de construction et passer leur commande en quelques clics seulement. Une fois la commande confirmée, notre équipe se met immédiatement en action. Nos livreurs expérimentés, équipés de scooters agiles, se rendent rapidement sur le lieu de livraison, assurant ainsi une réception rapide et sans tracas des matériaux commandés.</p>
         </div>
         <div class="info-section hidden" id="section3">
             <h2>Être livreur ?</h2>

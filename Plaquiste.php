@@ -10,9 +10,9 @@ require_once 'Include/EnteteDePage.inc.php';
     <link rel="stylesheet" href=Style\styleMenuiserie.css>
 </head>
 <body>
-    <main class="main-content3">
-        <div class="banner3">
-        <p id="banner-text3">PLAQUISTE</p> 
+    <main class="main">
+        <div class="bannière">
+        <p id="bannière-text">PLAQUISTE</p> 
         <img src="Images/background/Fond bois.jpg" alt="bois">
         </div>
         <div class="Chemin">

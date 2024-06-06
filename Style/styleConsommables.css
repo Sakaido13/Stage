@@ -1,17 +1,17 @@
 /* Consommables */
 
-.banner3 {
+.bannière {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.banner3 img {
+.bannière img {
     width: 100%;
     height: auto;
 }
 
-#banner-text3 {
+#bannière-text {
     position: absolute;
     left: 10%;
     top: 7%;
@@ -23,7 +23,7 @@
     font-size: 34px;
     font-weight: bold;
 }
-
+/*Accueil>Consommables*/
 .Chemin {
     position: absolute;
     text-align: center;
@@ -47,6 +47,7 @@
     font-weight: bold;
 }
 
+/*Lien*/
 a {
     color: #FFFFFF;
     outline: none;
@@ -58,6 +59,8 @@ a:hover {
     border-bottom: 1px solid;
     background: #05351a;
 }
+
+/* Trier liste déroulante */
 label {
     position: absolute;
     font-family:Arial, Helvetica, sans-serif;

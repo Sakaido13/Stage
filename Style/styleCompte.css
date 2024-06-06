@@ -1,18 +1,18 @@
 /* COMPTE*/
 
 
-.banner3 {
+.bannière {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.banner3 img {
+.bannière img {
     width: 100%;
     height: auto;
 }
 
-#banner-text3 {
+#bannière-text {
     position: absolute;
     left: 10%;
     top: 7%;
