@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="Style\styleFooter.css">
 </head>
 <body>
-    <div class="content">
+    <div class="main">
     </div>
     <footer>
-        <div class="footer-container">
-            <div class="footer-column">
+        <div class="footer-contenue">
+            <div class="footer-colonne">
                 <h3>CONTACTEZ NOUS</h3>
                 <p>Mail 📧</p>
                 <p>Téléphone 📞</p>
                 <p>Devenir Livreur</p>
             </div>
-            <div class="footer-column">
+            <div class="footer-colonne">
                 <h3>INFORMATIONS</h3>
                 <p>Politique de Confidentialité</p>
                 <p>Vos Données</p>
             </div>
-            <div class="footer-column">
+            <div class="footer-colonne">
                 <h3>MERCI DE VOTRE VISITE !</h3>
                 <p>@BIPBIPBAT 2024</p>
             </div>  
-            <div class="footer-column">
+            <div class="footer-colonne">
                 <h3>SUIVI DE COMMANDE</h3>
                 <p>Comment ça marche ?</p>
                 <p>Politique RGPD</p>

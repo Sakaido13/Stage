@@ -9,11 +9,11 @@
         <div class="logo">
             <img src="Images\Entete\LogoBipbipBat.webp" alt="Logo">
         </div>
-        <div class="search-bar">
+        <div class="barre-de-recherche">
             <input type="text" placeholder="Recherchez votre produit">
             <button type="submit"><img src="Images\logo\logorecherche.png" alt="Rechercher"></button>
         </div>
-        <div class="nav-icons">
+        <div class="icons">
             <a href="Compte.php"><img src="Images\Entete\Comptelogo.png" alt="User"></a>
             <a href="#"><img src="Images\Entete\Logo Like.png" alt="Wishlist"></a>
             <a href="#"><img src="Images\Entete\panier.png" alt="Cart"></a>

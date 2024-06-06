@@ -1,5 +1,5 @@
 /*Footer*/
-/* Footer Styles */
+
 footer {
     background-image: url('../Images/background/footer.PNG');
     /* Ajuster le chemin selon votre structure */
@@ -12,7 +12,7 @@ footer {
     position: relative;
 }
 
-.footer-container {
+.footer-contenue {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,24 +22,24 @@ footer {
     z-index: 1;
 }
 
-.footer-column {
+.footer-colonne {
     flex: 1;
     padding: 10px;
     max-width: 200px;
 }
 
-.footer-column h3 {
+.footer-colonne h3 {
     font-size: 16px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
-.footer-column p {
+.footer-colonne p {
     font-size: 14px;
     margin: 5px 0;
 }
 
-.footer-column a {
+.footer-colonne a {
     color: white;
     text-decoration: none;
     font-size: 14px;
