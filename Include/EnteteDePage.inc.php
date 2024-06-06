@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entete </title>
     <link rel="stylesheet" href="Style\styleHeader.css">
 </head>
     <header>
@@ -21,7 +20,7 @@
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="index.php?action=100">ACCUEIL</a></li>
+                <li><a href="index.php">ACCUEIL</a></li>
                 <li><a href="index.php?action=200">OUTILLAGES</a></li>
                 <li><a href="index.php?action=300">CONSOMMABLES</a></li>
                 <li><a href="index.php?action=400">PEINTURE</a></li>

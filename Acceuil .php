@@ -6,7 +6,7 @@ require_once 'Include\EnteteDePage.inc.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=2">
-    <title>Page d'accueil</title>
+    <title>ACCUEIL</title>
     <link rel="stylesheet" href="Style\styleAcceuil.css">
     <script src="script.js"></script>
 </head>
