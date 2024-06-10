@@ -22,7 +22,6 @@ require_once 'Include\EnteteDePageAccueil.php';
             <button type="submit"><img src="Images\logo\logorecherche.png" alt="Rechercher"></button>
 
             </div>
-
             <div class="bannière-text text-bas-bannière">
                 BIENVENUE CHEZ BIPBIPBAT
             </div>
@@ -42,6 +41,9 @@ require_once 'Include\EnteteDePageAccueil.php';
 
             </p>
         </div>
+        <div class="livraison">
+            <img src="Images\logo\Bazaart-removebg-preview.png" alt ="Fast">
+            </div>
     </main>
 </body>
 </html>
