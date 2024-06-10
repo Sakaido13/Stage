@@ -162,3 +162,15 @@ label {
      border: 1px black;
 
  }
+ .txtMdp{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        position:absolute;
+        top: 61%;
+        left: 8.5%;
+        font-size:large;
+        width: 20%; 
+        height: 5%;
+    
+ }

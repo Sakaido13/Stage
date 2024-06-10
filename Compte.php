@@ -33,7 +33,7 @@ require_once 'Include/EnteteDePage.inc.php';
         <div class="txtM">
         <p>Email : </p>   
         </div> 
-        <div class="mdp">
+        <div class="txtMdp">
            <p> Mot de passe : </p>
       </div>
     </main>
