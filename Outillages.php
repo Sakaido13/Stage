@@ -6,17 +6,17 @@ require_once 'Include/EnteteDePage.inc.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OUTILLAGES</title>
+    <title><?php echo $titre ?> </title>
     <link rel="stylesheet" href=Style\styleOutillage.css>
 </head>
 <body>
     <main class="main">
         <div class="bannière">
-        <p id="bannière-text">OUTILLAGES</p> 
+        <p id="bannière-text"><?php echo $titre ?></p> 
         <img src="Images/background/Fond bois.jpg" alt="bois">
         </div>
         <div class="Chemin">
-        <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > OUTILLAGES<p>
+        <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > <?php echo $titre ?><p>
         </div>
         <label for="Trier-select">Trier par ordre:</label>
         <select name="Trier" id="Trier-select">

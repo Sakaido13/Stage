@@ -6,17 +6,17 @@ require_once 'Include/EnteteDePage.inc.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMPTE</title>
+    <title><?php echo $titre ?> </title>
     <link rel="stylesheet" href=Style\styleCompte.css>
 </head>
 <body>  
     <main class="main">
         <div class="bannière">
-          <p id="bannière-text"> MON COMPTE</p>   
+          <p id="bannière-text"><?php echo $titre ?>  </p>   
         <img src="Images/background/Fond bois.jpg" alt="bois">
           </div>
         <div class="Chemin">
-            <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > COMPTE<p>
+            <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > <?php echo $titre ?> <p>
         </div>
         <div class="bloc1">
             <p>NOUVEAU CLIENT </p>
