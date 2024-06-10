@@ -1,5 +1,5 @@
 <?php
-require_once 'Include\EnteteDePage.inc.php';
+require_once 'Include\EnteteDePageAccueil.php';
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -17,6 +17,12 @@ require_once 'Include\EnteteDePage.inc.php';
             <div class="bannière-text text-haut-bannière">
                 FAITES VOUS LIVRER DÈS MAINTENANT !
             </div>
+            <div class="bannière-text2 text-haut-bannière2">
+            <input type="text" placeholder="Recherchez votre produit">
+            <button type="submit"><img src="Images\logo\logorecherche.png" alt="Rechercher"></button>
+
+            </div>
+
             <div class="bannière-text text-bas-bannière">
                 BIENVENUE CHEZ BIPBIPBAT
             </div>

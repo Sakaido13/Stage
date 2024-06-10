@@ -1,5 +1,4 @@
 /* Accueil */
-
 .titre {
     position: absolute;
     top: 17%;
@@ -14,8 +13,6 @@
     position: relative;
     max-width: max-content;
 }
-
-/* styles.css */
 
 .main {
     position: relative;
@@ -44,11 +41,11 @@
 .text-haut-bannière {
     position: absolute;
     top: 3%;
-    left: 21%;
-    font-size: 185%;
+    left: 27%;
+    font-size: 215%;
     background-color: black;
     color: #fff;
-    width: 40%;
+    width: 70%;
     margin: 8px 8px 8px 8px;
 }
 
@@ -67,6 +64,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .info-section {
     position: absolute;
     width: 400px;
@@ -76,7 +74,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     opacity: 0;
     transform: translateX(35px); 
-    transition: opacity 0.9s ease-out, transform 0.9s ease-out; /*  transition */
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
 .info-section.show {
@@ -126,8 +124,49 @@
     padding: 10px;
     color: black;
     border-radius: 0 0 5px 5px;
-    font-size:large;
+    font-size: large;
     font-weight: bold;
 }
 
+.text-haut-bannière2 {
+    position: absolute;
+    top: 3%;
+    left: 36%;
+    width: 86%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.text-haut-bannière2 input {
+    padding: 11px;
+    width: 35%;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px 0 0 4px;
+    background: white;
+     border-radius: 15px;
+     border: 4px black solid
+}
+
+.text-haut-bannière2 button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 33%;
+    top: 0;
+    bottom: 0;
+    padding: 0 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.text-haut-bannière2 button img {
+    width: 20px;
+    height: 18px;
+}

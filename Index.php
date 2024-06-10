@@ -6,7 +6,7 @@ if (!isset($_REQUEST['action'])) {
 
 switch ($_REQUEST['action']){
     case 100 : // Page d'accueil
-        require_once 'include/EnteteDePage.inc.php';
+        require_once 'include/EnteteDePageAccueil.php';
         require_once 'Acceuil .php';
         require_once 'include/PiedDePage.inc.php';
         break;
