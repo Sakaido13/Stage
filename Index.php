@@ -72,7 +72,11 @@ switch ($_REQUEST['action']){
     case 1000:// Page Compte
         $titre="Mon Compte";
         require_once 'include/EnteteDePage.inc.php';
+<<<<<<< HEAD
         require_once 'Pages\Compte.php';
+=======
+        require_once 'Pages\Pages\Compte.php';
+>>>>>>> ea08d7d6ad8c45ebcaf2fb77cce27314091f29ae
         require_once 'include/PiedDePage.inc.php';
         break;
 
