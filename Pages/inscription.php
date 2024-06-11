@@ -1,73 +1,41 @@
 <?php
-<<<<<<< HEAD
-session_start();
 
 require_once __DIR__ . '/../Include/EnteteDePage.inc.php'; 
-
-=======
-include 'C:\xampp\htdocs\Stage\Stage\Include\EnteteDePage.inc.php';
-session_start();
->>>>>>> ea08d7d6ad8c45ebcaf2fb77cce27314091f29ae
-try {
-    $bdd = new PDO('mysql:host=localhost;dbname=bipbipbat_bdd;charset=utf8', 'root', '');
-    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (Exception $e) {
-    die('Erreur : ' . $e->getMessage());
-}
-
-if (isset($_POST["submit"])) {
-    if (!empty($_POST["email"]) && !empty($_POST["password"])) {
-        $email = htmlspecialchars($_POST["email"]);
-        $password = password_hash($_POST["password"], PASSWORD_BCRYPT);
-
-        $insertuser = $bdd->prepare('INSERT INTO user (email, password) VALUES (?, ?)');
-        $insertuser->execute([$email, $password]);
-
-        $recupuser =$bdd->prepare('SELECT * FROM user WHERE email = ? AND password = ?');  
-        $recupuser->execute(array($email,$password));
-        if($recupuser->rowCount()>0){
-   
-        $_SESSION['email']=$email;
-        $_SESSION['password']=$password;
-        $_SESSION['id']=$recupuser->fetch()['id'];
-        
-        }
-        echo "Compte créé avec succès !";
-    } else {
-        echo "Veuillez compléter tous les champs.";
-    }
-}
 
 ?>
 
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<<<<<<< HEAD
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style\styleinscription.css">
-    <title> <?php echo $titre?> </title>
-</head>
-
-</html>
-=======
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style\styleHeader.css">
+    <link rel="stylesheet" href="../Style/styleinscription.css">
     <title>Inscription</title>
 </head>
->>>>>>> ea08d7d6ad8c45ebcaf2fb77cce27314091f29ae
-<body>
+<body> <main class="main">
+        <div class="bannière">
+        <p id="bannière-text">Inscription </p> 
+        <img src="C:\xampp\htdocs\Stage\Stage\Images\background\Fond bois.jpg" alt="bois">
+        </div>
+        <div class="Chemin">
+        <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> > Inscription <p>
+        </div>
+        <label for="Trier-select">Trier par ordre:</label>
+        <select name="Trier" id="Trier-select">
+        <option value="">Trier par défaut</option>
+        <option value="Trier croissant">Trier par ordre croissant</option>
+        <option value="Trier décroissant">Trier par ordre décroissant</option>
+    </select>
+    </main>
     <form method="post" action="">
         <input type="email" name="email" placeholder="Adresse e-mail" required>
         <input type="password" name="password" placeholder="Mot de passe" required>
+        <input type="text" name="nom" placeholder="Nom" required>
+        <input type="text" name="prenom" placeholder="Prénom" required>
+        <input type="text" name="adressedelivraison" placeholder="Votre adresse de livraison" required>
+
         <br><br>
         <input type="submit" name="submit" value="Créer un compte">
     </form>
 </body>
 </html>
-<<<<<<< HEAD
-<style>
-=======
->>>>>>> ea08d7d6ad8c45ebcaf2fb77cce27314091f29ae
