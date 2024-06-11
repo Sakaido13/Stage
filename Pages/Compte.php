@@ -1,4 +1,5 @@
 <?php 
+
 require_once 'Include/EnteteDePage.inc.php';
 ?>
 <!DOCTYPE html>
@@ -19,6 +20,8 @@ require_once 'Include/EnteteDePage.inc.php';
             <P id="chemin-text"> <a href="Acceuil .php">ACCUEIL </a> >COMPTE<p>
         </div>
         <div class="bloc1">
+        <button type="submit" alt="Créer un compte"> <p id =but>Créer un compte <p> </button>
+        
             <p>NOUVEAU CLIENT </p>
         </div>
         <div class="bloc2">

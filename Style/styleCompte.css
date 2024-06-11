@@ -174,3 +174,33 @@ label {
         height: 5%;
     
  }
+ .bloc1 button {
+   display: flex;
+   justify-content: center;
+   background: white; 
+   border-radius: 10px; 
+   border: 2px black solid;
+   width: 45%;
+   height: 25%;
+   font-size: larger;
+   top: 40%;
+   left:35%;
+
+ }
+  .but {
+    display: flex;
+    justify-content: center;
+    top: 50%;
+  }
+  .submit{
+    display: flex;
+   justify-content: center;
+   background: white; 
+   border-radius: 10px; 
+   border: 2px black solid;
+   width: 45%;
+   height: 25%;
+   font-size: larger;
+   top: 40%;
+   left:35%;
+  }
