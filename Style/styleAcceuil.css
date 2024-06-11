@@ -84,7 +84,7 @@
 }
 
 #section1 {
-    top: 10%;
+    top: 20%;
     left: 5%;
     width: 600px;
     height: 300px;
@@ -93,7 +93,7 @@
 }
 
 #section2 {
-    top: 35%;
+    top: 45%;
     right: 5%;
     width: 600px;
     height: 300px;
@@ -102,7 +102,7 @@
 }
 
 #section3 {
-    bottom: 20%;
+    bottom: 10%;
     left: 5%;
     width: 600px;
     height: 300px;
@@ -130,8 +130,8 @@
 
 .text-haut-bannière2 {
     position: absolute;
-    top: 3%;
-    left: 38%;
+    top: 2.3%;
+    left: 36.5%;
     width: 87%;
     display: flex;
     align-items: center;
@@ -141,7 +141,7 @@
 }
 
 .text-haut-bannière2 input {
-    padding: 14px;
+    padding: 15px;
     width: 35%;
     font-size: 16px;
     border: 1px solid #000000;
@@ -168,4 +168,13 @@
 .text-haut-bannière2 button img {
     width: 20px;
     height: 18px;
+}
+
+.livraison img{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 250px;
+    height: 250px;
+
 }

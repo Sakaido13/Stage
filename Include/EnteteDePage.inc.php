@@ -14,7 +14,7 @@
             <button type="submit"><img src="Images\logo\logorecherche.png" alt="Rechercher"></button>
         </div>
         <div class="icons">
-            <a href="Compte.php"><img src="Images\Entete\Comptelogo.png" alt="User"></a>
+            <a href="index.php?action=1010"><img src="Images\Entete\Comptelogo.png" alt="User"></a>
             <a href="#"><img src="Images\Entete\Logo Like.png" alt="Wishlist"></a>
             <a href="#"><img src="Images\Entete\panier.png" alt="Cart"></a>
         </div>
