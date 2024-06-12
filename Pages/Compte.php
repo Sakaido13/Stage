@@ -19,7 +19,7 @@ require_once 'Include/EnteteDePage.inc.php';
             <p id="chemin-text"><a href="Acceuil.php">ACCUEIL </a> > COMPTE</p>
         </div>
         <div class="bloc1">
-            <!-- Modification du bouton pour rediriger vers la page de création de compte -->
+        
             <a href="index.php?action=1010">
                 <button type="button" alt="Créer un compte"> <p id="but">Créer un compte</p> </button>
             </a>
