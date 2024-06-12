@@ -29,7 +29,6 @@
                 <li><a href="index.php?action=700">ÉLECTRICITÉ</a></li>
                 <li><a href="index.php?action=800">MENUISERIE</a></li>
                 <li><a href="index.php?action=900">PLAQUISTE</a></li>
-                <li><a href="index.php?action=1010">INSCRIPTION</a></li>
             </ul>
         </nav>
     </header>

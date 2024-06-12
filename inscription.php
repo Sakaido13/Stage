@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-require_once __DIR__ . '/../Include/EnteteDePage.inc.php'; 
 
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=bipbipbat_bdd;charset=utf8', 'root', '');
