@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
     <link rel="stylesheet" href="Style\styleHeader.css">
 </head>
     <header>
@@ -10,7 +10,7 @@
             <img src="Images\Entete\LogoBipbipBat.webp" alt="Logo">
         </div>
         <div class="icons">
-            <a href="Compte.php"><img src="Images\Entete\Comptelogo.png" alt="User"></a>
+            <a href="index.php?action=1000"><img src="Images\Entete\Comptelogo.png" alt="User"></a>
             <a href="#"><img src="Images\Entete\Logo Like.png" alt="Wishlist"></a>
             <a href="#"><img src="Images\Entete\panier.png" alt="Cart"></a>
         </div>

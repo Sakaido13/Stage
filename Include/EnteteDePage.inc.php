@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <link rel="stylesheet" href="Style\styleHeader.css">
 </head>
     <header>
@@ -29,6 +29,7 @@
                 <li><a href="index.php?action=700">ÉLECTRICITÉ</a></li>
                 <li><a href="index.php?action=800">MENUISERIE</a></li>
                 <li><a href="index.php?action=900">PLAQUISTE</a></li>
+                
             </ul>
         </nav>
     </header>

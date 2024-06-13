@@ -8,7 +8,9 @@ footer {
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
-    position: relative;
+ /* ou position: absolute; */
+    bottom: 0; /* Pour le mettre en bas de la page */
+    width: 100%; /* Pour occuper toute la largeur de la page *//* S'il y a d'autres éléments en position absolue ou fixe */
 }
 
 .footer-contenue {
@@ -17,8 +19,7 @@ footer {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
-    z-index: 1;
+    position: relative; /* Tu peux retirer cette ligne si tu utilises position: fixed; */
 }
 
 .footer-colonne {

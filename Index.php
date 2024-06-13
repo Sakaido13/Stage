@@ -77,9 +77,9 @@ switch ($_REQUEST['action']) {
 
 
     case 1010: // Page Inscription
-        $titre = "Mon Compte";
+        $titre = "  Inscription";
         require_once 'include/EnteteDePage.inc.php';
-        require_once 'Inscription.php';
+        require_once 'inscription.php';
         require_once 'include/PiedDePage.inc.php';
         break;
 }

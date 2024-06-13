@@ -1,18 +1,19 @@
-/* Carrelage */
+/* styleinscription.css */
 
-
-.bannière{
+/* Bannière */
+.banniere {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.bannière img {
+.banniere img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
-#bannière-text {
+#banniere-text {
     position: absolute;
     left: 10%;
     top: 7%;
@@ -24,55 +25,47 @@
     font-size: 34px;
     font-weight: bold;
 }
-/*Accueil>Carrelage*/
-.Chemin {
-    position: absolute;
-    text-align: center;
-    left: 8%;
-    top: 18%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: white;
-}
 
-.chemin-text {
+/* Formulaire */
+
+form {
     position: absolute;
-    left: 10%;
-    top: 7%;
-    width: 40%;
-    transform: translate(-50%, -50%);
     background-color: #004d40;
-    padding: 10px 20px;
-    color: white;
-    font-size: 34px;
-    font-weight: bold;
-}
-/*Lien*/
-a {
-    color: #FFFFFF;
-    outline: none;
-    text-decoration: none;
-
+    padding: 20px;
+    border-radius: 8px ; 
+    border: 2px black solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    left: 35%;
+    top: 45%;
+    width: 30%;
 }
 
-a:hover {
-    border-bottom: 1px solid;
-    background: #05351a;
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="submit"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
 }
-/* Trier liste déroulante */
-label {
-    position: absolute;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:large;
-    padding-right: 10px;
-  }
-  
-  select {
-    position:absolute;
-    top:26%;
-    left:35%;
-    font-size:large;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 2px 5px;
-  }
-  
+
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    font: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #00b868;
+}
+
+input::placeholder {
+    color: #999999;
+}
