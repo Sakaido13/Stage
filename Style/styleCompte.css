@@ -135,10 +135,12 @@ margin-left: 20%;
 .forgot-password a {
   color: #000000;
   text-decoration: underline;
+  font-style: italic;
 
 }
 
 .submit {
+  margin-left: 20%;
   left: 50%;
   width: 60%;
   color: white;
@@ -164,8 +166,4 @@ margin-left: 20%;
 #BlocCompte {
   display: flex;
   flex-direction: column-reverse;
-}
-
-#log {
-  align-self: baseline;
 }
