@@ -82,5 +82,21 @@ switch ($_REQUEST['action']) {
         require_once 'inscription.php';
         require_once 'include/PiedDePage.inc.php';
         break;
+
+
+
+    case 1020: // Page Connexion réussie
+            $titre = "  Connexion réussie";
+            require_once 'include/EnteteDePage.inc.php';
+            require_once 'ConnexionTrue.php';
+            require_once 'include/PiedDePage.inc.php';
+            break;
+
+    case 1030: // Page déconnexion réussie
+             $titre = "  Déconnexion réussie";
+             require_once 'include/EnteteDePage.inc.php';
+             require_once 'Déconnexion.php';
+             require_once 'include/PiedDePage.inc.php';
+             break;
 }
 ?>

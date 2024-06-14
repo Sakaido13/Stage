@@ -24,6 +24,7 @@ if (isset($_POST["login"])) {
                 $_SESSION['email'] = $user['email'];
                 $_SESSION['id'] = $user['id'];
                 $message = "Connexion réussie !";
+                header('Location: index.php?action=1020');
             } else {
                 $message = "Mot de passe incorrect.";
             }

@@ -1,0 +1,128 @@
+/* Style pour le body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style principal */
+.main {
+    padding: 20px;
+}
+
+/* Style de la bannière */
+.banniere {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banniere img {
+    width: 100%;
+    height: auto;
+}
+
+#banniere-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+/* Style du chemin */
+.Chemin {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.Chemin a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.Chemin a:hover {
+    text-decoration: underline;
+}
+
+/* Style des blocs */
+.bloc1, .bloc2 {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.bloc1 p, .bloc2 p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Style des formulaires */
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+.txtM, .txtMdp {
+    margin-bottom: 15px;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    margin: 15px 0;
+}
+
+.forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Style du bouton de connexion */
+.submit {
+    background-color: #28a745;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: #218838;
+}
+
+/* Style du message */
+.message {
+    color: red;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Style pour le bouton de créer un compte */
+.bloc1 button {
+    background-color: #007BFF;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bloc1 button:hover {
+    background-color: #0056b3;
+}
