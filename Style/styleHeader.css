@@ -29,8 +29,8 @@ header {
 }
 
 .barre-de-recherche input {
-    padding: 5px;
-    font-size: 16px;
+    padding: 4px;
+    font-size: 14px;
     border: 1px solid #000000;
     border-radius: 4px 0 0 4px;
     flex-grow: 1;
